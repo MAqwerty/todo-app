@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="JS.js"></script>
+    <title>TODO app</title>
+</head>
+<body id="BODY">
+    
+<main class="container">
+
+    <p class="todoTOP dark">TODO</p>
+    <img class="themeICON" id="iconsun"  src="./images/icon-sun.svg" alt="">
+    <img class="themeICON" id="iconmoon" src="./images/icon-moon.svg" alt="">
+    
+
+    <div class="inputBOX" id="inputBOX">
+         <div class="checkBOX">
+              <div class="check" id="EnterTEXT" ><img class="" id="imgEnter" src="./images/icon-check.svg" alt=""></div> 
+        </div>
+         <input class="input-todo" type="text" name="" id="inputNEWtodo" placeholder="Create new todo">
+    </div>
+
+    <div class="listTODO " id="listTODO">
+        <ul class="ulTODO" id="ulLIST">
+            <p id="NOtodos" class="pstyle">NO TODOS You can add !</p>      
+        </ul>
+
+        <div class="List-management">
+
+         <p class="management-left"> <span id="items-left">0</span> items left </p>
+
+         <div class="management-center" >
+            <p class="active" id="ALL" >All</p>
+            <p id="Active">Active</p>
+            <p id="Completed">Completed</p>   
+         </div>
+        
+         <p id="clear" class="management-right"> Clear Completed </p>
+       
+        </div>
+
+    </div>
+<!-- .................mobile.................. -->
+    <div class="management-center MB" >
+        <p id="ALLMB" class="active" >All</p>
+        <p id="ActiveMB">Active</p>
+        <p id="CompletedMB"> Completed</p>   
+     </div>
+  
+
+    <footer >
+        <p>Drag and drop to reorder list</p>
+    </footer>
+
+</main>
+
+</body>
+</html>
